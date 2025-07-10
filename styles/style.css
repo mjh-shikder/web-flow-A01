@@ -8,6 +8,12 @@
 }
 
 
+.inter-font2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+}
 
 /* shared style */
 .btn-primary {
@@ -85,4 +91,52 @@
 
 .see-in-action-img {
     border-radius: 30px;
+}
+
+
+/* Users Container */
+.users-container {
+    background-color: #e5e7ff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 200px 200px;
+    border-radius: 20px;
+    padding: 50px 80px
+}
+
+.users-heading {
+    font-size: 38px;
+    color: #252432;
+}
+
+.users-statas {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.hihlighted-text-groups {
+    display: inline;
+    text-align: center;
+
+
+}
+
+.bolded-text {
+    font-size: 70px;
+    font-weight: 800;
+    font-size: 80px;
+    color: #4E47FF;
+    margin: 0px;
+}
+
+.small-text {
+    font-size: 20px;
+    font-weight: 400;
+    color: #696969;
+    margin: 0px;
 }

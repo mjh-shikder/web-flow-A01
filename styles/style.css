@@ -1,10 +1,10 @@
 /* google fonts */
 
 .raleway-primary-font {
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400px;
-  font-style: normal;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400px;
+    font-style: normal;
 }
 
 
@@ -17,10 +17,22 @@
     border-radius: 10px;
     border: none;
     font-size: 20px;
-
 }
+
+.regular-text {
+    font-size: 30px;
+    font-weight: 300;
+    color: #757575;
+}
+
+.regular-heading {
+    font-size: 42px;
+    font-weight: 700;
+    color: #3a3a3a;
+}
+
 /* Header */
-.header{
+.header {
     display: inline-block;
     width: 100%;
     height: 698px;
@@ -37,11 +49,11 @@
 
 }
 
-.nav-logo{
+.nav-logo {
     width: 150px;
 }
 
-.banner-container{
+.banner-container {
     display: block;
     align-items: center;
     justify-content: center;
@@ -63,3 +75,14 @@
     font-size: 20px;
 }
 
+/* See in Action */
+.see-in-action-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 200px;
+}
+
+.see-in-action-img {
+    border-radius: 30px;
+}

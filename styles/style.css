@@ -33,6 +33,11 @@
     font-size: 20px;
 }
 
+.btn-primary:hover {
+    background-color: #3531b1;
+    transform: scale(1.1);
+}
+
 .regular-text {
     font-size: 30px;
     font-weight: 300;
@@ -71,6 +76,13 @@ body {
     width: 150px;
 }
 
+.nav-logo:hover {
+    transform: scale(1.2);
+
+
+
+}
+
 .banner-container {
     display: block;
     align-items: center;
@@ -93,6 +105,11 @@ body {
     font-size: 20px;
 }
 
+.banner-btn:hover {
+    background-color: #3531b1;
+    transform: scale(1.1);
+}
+
 /* See in Action */
 .see-in-action-container {
     display: flex;
@@ -103,6 +120,10 @@ body {
 
 .see-in-action-img {
     border-radius: 30px;
+}
+
+.see-in-action-img:hover {
+    transform: scale(1.1);
 }
 
 
@@ -138,6 +159,8 @@ body {
 
 }
 
+
+
 .bolded-text {
     font-size: 70px;
     font-weight: 800;
@@ -146,11 +169,21 @@ body {
     margin: 0px;
 }
 
+.bolded-text:hover {
+    color: #8985ff;
+    transform: scale(1.2);
+}
+
 .small-text {
     font-size: 20px;
     font-weight: 400;
     color: #696969;
     margin: 0px;
+}
+
+.small-text:hover {
+    color: #4E47FF;
+    transform: scale(1.2);
 }
 
 /* Users Feedback */
@@ -185,6 +218,12 @@ body {
 
 }
 
+
+.reviews:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 3px 0px #969696;
+    transform: scale(1.1);
+}
 
 .review-stars {
     background-repeat: repeat-x;
@@ -276,29 +315,41 @@ body {
 
 }
 
+.focus-banner:hover {
+    transform: scale(1.05);
+}
+
 /* Get In Touch */
-.get-in-touch-container{
+.get-in-touch-container {
     margin: 200px 200px;
     display: flex;
     gap: 40px;
 }
 
-.get-in-touch-banner{
+.get-in-touch-banner {
     width: 50%;
 }
 
-.get-in-touch-heading{
+.get-in-touch-heading {
+    color: #272727;
     font-size: 97px;
     font-weight: 700;
+
+}
+
+.get-in-touch-heading:hover{
+    color: #8985ff;
+    cursor: pointer;
+    transform: scale(1.05);
     
 }
 
-.get-in-touch-form{
+.get-in-touch-form {
     display: inline-block;
     width: 50%;
-   
-    
-    
+
+
+
 }
 
 input {
@@ -313,7 +364,7 @@ input {
 
 }
 
-.massage-box{
+.massage-box {
     width: 100%;
     height: 167px;
     border-radius: 10px;
@@ -325,7 +376,7 @@ input {
 }
 
 /* Footer */
-#footer{
+#footer {
     width: 100%;
     height: 428px;
     background-color: white;
@@ -335,11 +386,15 @@ input {
     text-align: center;
 }
 
-.footer-logo{
+.footer-logo {
     width: 15%;
 }
 
-.footer-description{
+.footer-logo:hover {
+    transform: scale(1.1);
+}
+
+.footer-description {
     font-size: 17px;
     color: #696969;
 }
@@ -349,18 +404,21 @@ footer ul a {
     color: #696969;
 }
 
-footer ul a:hover{
+footer ul a:hover {
     color: #4E47FF;
-    
+    transform: scale(1.1);
+
+}
+.fotter-btn:hover {
+    transform: scale(1.2);
+
 }
 
-.footer-links{
+.footer-links {
     list-style: none;
     display: flex;
     justify-content: center;
     gap: 35px;
-    
+
 }
-
-
 

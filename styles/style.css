@@ -229,3 +229,40 @@ body {
     color: #696969;
     margin: 0px;
 }
+
+/* Ready to focus better */
+.focus-better-container {
+    background-color: white;
+    margin: 200px 200px;
+    border-radius: 20px;
+
+
+}
+
+.focus-better {
+    padding: 60px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+
+.focus-title {
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 0px;
+    margin-top: 0px;
+
+}
+
+.focus-description {
+    color: #696969;
+}
+
+.get-start-btn {
+    margin-bottom: 20px;
+}
+
+.focus-banner {
+    border-radius: 20px;
+
+}

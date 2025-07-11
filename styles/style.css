@@ -37,6 +37,10 @@
     color: #3a3a3a;
 }
 
+body {
+    background-color: #f5f8ff;
+}
+
 /* Header */
 .header {
     display: inline-block;
@@ -110,14 +114,14 @@
     color: #252432;
 }
 
-.users-statas {
+.users-status {
     display: flex;
     justify-content: space-around;
     align-items: center;
     text-align: center;
 
-
 }
+
 
 .hihlighted-text-groups {
     display: inline;
@@ -137,6 +141,91 @@
 .small-text {
     font-size: 20px;
     font-weight: 400;
+    color: #696969;
+    margin: 0px;
+}
+
+/* Users Feedback */
+.users-feedback-container {
+    text-align: center;
+    margin: 200px 200px;
+}
+
+.user-feedback-title {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.review-container {
+
+    display: inline-flex;
+    flex-wrap: wrap;
+    gap: 80px;
+
+
+
+}
+
+
+.reviews {
+    background-color: #ffffff;
+    width: 300px;
+    border-radius: 25px;
+    padding: 20px 50px;
+    justify-items: left;
+
+}
+
+
+.review-stars {
+    background-repeat: repeat-x;
+
+
+
+}
+
+.review-title {
+    color: #3a3a3a;
+}
+
+.users-comment {
+    text-align: left;
+    color: #696969;
+}
+
+.user-profile {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    align-content: center;
+    margin: 0px;
+
+}
+
+.avatar {
+    border-radius: 100px;
+    width: 40px;
+    height: 40px;
+
+}
+
+.name-date {
+    display: block;
+    flex-wrap: wrap;
+    margin: 0px;
+    text-align: left;
+}
+
+.reviewer-name {
+    font-size: 15px;
+    color: #696969;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.review-date {
+    font-size: 14px;
+    font-weight: 300;
     color: #696969;
     margin: 0px;
 }
